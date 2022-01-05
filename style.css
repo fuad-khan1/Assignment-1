@@ -4,50 +4,94 @@ body {
   font-family: "Poppins", sans-serif;
 }
 .top-section {
-  width: 85%;
-  margin: 0 auto;
+  width: 55%;
+  margin-left: 50px;
+  padding: 40px;
   margin-bottom: 80px;
 }
-
-.top-header{
-    border-left:4px solid orangered ;
-    font-size: 1.4em;
-    font-weight: 900;
+h2 {
+  font-size: x-large;
 }
-.green{
-    color: green;
+
+.top-header {
+  border-left: 4px solid orangered;
+  font-size: 1.6em;
+  font-weight: 1000;
+}
+.green {
+  color: green;
 }
 .photo {
-  width: 240px;
+  width: 260px;
 }
 .flex {
   display: flex;
   justify-content: space-around;
 }
-button{
-    background-color: rgb(132, 74, 190);
-    color: whitesmoke;
-    border-radius: 4px;
-    padding: 10px 13px;
+button {
+  background-color: rgb(132, 74, 190);
+  color: whitesmoke;
+  border-radius: 4px;
+  padding: 10px 13px;
 }
-.section2-h2{
-    text-align: center;
-    font-size: 1.5em;
-    font-weight: 800;
-    margin-bottom: 40px;
+.section2-h2 {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 800;
+  margin-bottom: 40px;
 }
-span{
-    color: tomato;
+span {
+  color: tomato;
 }
-.div1{
-    width: 280px;
-    box-shadow: 10px 10px 20px black;
-    border-radius: 10px;
-    margin-bottom: 45px;
-    padding: 10px;
-    background-color:aliceblue ;
-  }
-
-.img{
-    width:100%;
+.box-card {
+  width: 280px;
+  box-shadow: 10px 10px 20px black;
+  border-radius: 10px;
+  margin-bottom: 120px;
+  padding: 10px;
+}
+.img {
+  width: 100%;
+}
+#box1 {
+  background-color: grey;
+}
+#box2 {
+  background-color: wheat;
+}
+#box3 {
+  background-color: thistle;
+}
+.section-3 {
+  margin-bottom: 100px;
+}
+.sec3-right {
+  width: 300px;
+  text-align: justify;
+}
+.section-4 {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 100px;
+}
+.sec4-left p {
+  width: 300px;
+  text-align: justify;
+}
+.low-part {
+  border-radius: 9px;
+  width: 50%;
+  margin-left: 20%;
+  padding: 30px;
+  background-image: linear-gradient(gray, skyblue);
+}
+.lower h2 {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 8px;
+  margin-top: 90px;
 }
