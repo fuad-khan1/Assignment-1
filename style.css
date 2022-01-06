@@ -15,14 +15,15 @@ h2 {
 
 .top-header {
   border-left: 4px solid orangered;
-  font-size: 1.6em;
-  font-weight: 1000;
+  padding-left: 7px;
+  font-size: 1.7em;
+  font-weight: bolder;
 }
 .green {
   color: green;
 }
 .photo {
-  width: 260px;
+  width: 280px;
 }
 .flex {
   display: flex;
@@ -44,22 +45,24 @@ span {
   color: tomato;
 }
 .box-card {
-  width: 280px;
+  width: 220px;
   box-shadow: 10px 10px 20px black;
   border-radius: 10px;
   margin-bottom: 120px;
-  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: justify;
 }
-.img {
+.box-img {
   width: 100%;
 }
-#box1 {
+#mission {
   background-color: grey;
 }
-#box2 {
+#vision {
   background-color: wheat;
 }
-#box3 {
+#goals {
   background-color: thistle;
 }
 .section-3 {
@@ -72,21 +75,23 @@ span {
 .section-4 {
   width: 80%;
   margin-left: 10%;
-  margin-bottom: 100px;
+  margin-bottom: 110px;
 }
 .sec4-left p {
   width: 300px;
   text-align: justify;
 }
-.low-part {
-  border-radius: 9px;
-  width: 50%;
-  margin-left: 20%;
-  padding: 30px;
-  background-image: linear-gradient(gray, skyblue);
+
+.pic-low {
+  width: 400px;
 }
 .lower h2 {
   text-align: center;
+}
+
+.text-low {
+  width: 300px;
+  text-align: justify;
 }
 footer {
   text-align: center;
